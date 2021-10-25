@@ -1,0 +1,41 @@
+.home-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.img-home {
+  background-image: url("./home-background.png");
+  background-position: bottom;
+  background-position-x: 70%;
+  background-position-y: 125%;
+  background-size: 55%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.img-home:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--black-background-transparent);
+}
+
+.welcome-text {
+  position: relative;
+  left: 10%;
+  top: 15%;
+  color: var(--color-white);
+}
+
+.welcome-text h1 {
+  font-family: "Zen Antique Soft", serif;
+  font-size: 4.2rem;
+}
+
+.welcome-text h3 {
+  font-size: 1.8rem;
+  color: var(--red-details);
+}
