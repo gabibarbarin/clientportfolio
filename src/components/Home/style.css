@@ -39,3 +39,81 @@
   font-size: 1.8rem;
   color: var(--red-details);
 }
+
+@media screen and (max-width: 375px) {
+  .welcome-text {
+    left: 5%;
+    top: -4%;
+  }
+
+  .welcome-text h1 {
+    font-size: 2rem;
+  }
+
+  .welcome-text h3 {
+    font-size: 0.98rem;
+  }
+  .img-home {
+    background-position-x: 80%;
+    background-position-y: 102%;
+    background-size: 665px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .welcome-text {
+    left: 5%;
+    top: -17%;
+  }
+
+  .welcome-text h1 {
+    font-size: 2rem;
+  }
+
+  .welcome-text h3 {
+    font-size: 0.98rem;
+  }
+  .img-home {
+    background-position-x: 80%;
+    background-position-y: 102%;
+    background-size: 665px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .welcome-text {
+    left: 5%;
+    top: -11%;
+  }
+
+  .welcome-text h1 {
+    font-size: 2rem;
+  }
+
+  .welcome-text h3 {
+    font-size: 0.98rem;
+  }
+  .img-home {
+    background-position-y: 102%;
+    background-size: 675px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .welcome-text {
+    left: 5%;
+    top: -13%;
+  }
+
+  .welcome-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .welcome-text h3 {
+    font-size: 1.5rem;
+  }
+  .img-home {
+    background-position-y: 105%;
+    background-size: 675px;
+  }
+}

@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap");
 
+body,
+html {
+  background-color: var(--black-background);
+}
+
+body,
+html * {
+  font-size: "Poppins";
+}
+
 :root {
   --black-background: #050505;
   --black-background-transparent: rgba(0, 0, 0, 0.3);
@@ -30,12 +40,8 @@
   padding: 0;
 }
 
-body,
-html {
-  background-color: var(--black-background);
-}
-
-body,
-html * {
-  font-size: "Poppins";
+@media screen and (max-width: 375px) {
+  .heading-away {
+    margin-top: 6rem;
+  }
 }
