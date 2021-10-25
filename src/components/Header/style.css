@@ -1,0 +1,27 @@
+nav {
+  background-color: var(--black-background);
+}
+
+.nav-item {
+  color: var(--color-gray) !important;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: var(--text-lg);
+  padding: 0.45rem 0.6rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+  margin: 0 -0.25rem;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  background-color: var(--color-white);
+  color: var(--color-gray-hover) !important;
+}
+
+@media (min-width: 992px) {
+  .nav-item {
+    font-size: var(--text-base);
+  }
+}
